@@ -53,6 +53,8 @@ settings:
     customer_standalone_extension: 0
 
     custom_dataset_query: ""        # Write JQL query to add JQL output to the app/datasets/jsm/custom-issues.csv, e.g. "summary ~ 'AppRequests*'"
+    responsa_chatbot_id: "60e46423e64cfa4a6692815b"
+    responsa_service_desk_id: 86
 services:
   - module: shellexec
     prepare:
