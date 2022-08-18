@@ -83,6 +83,8 @@ class JsmSettings(BaseAppSettings):
         self.custom_dataset_query = self.get_property('custom_dataset_query') or ""
         self.verbose = self.settings['verbose']
         self.insight = self.get_property('insight')
+        self.responsa_chatbot_id = self.get_property('responsa_chatbot_id')
+        self.responsa_service_desk_id = self.get_property('responsa_service_desk_id')
 
 
 class CrowdSettings(BaseAppSettings):
