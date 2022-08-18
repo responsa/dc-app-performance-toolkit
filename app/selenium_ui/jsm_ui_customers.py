@@ -39,6 +39,8 @@ Write your custom selenium scripts in `app/extension/jsm/extension_ui_customers.
 Refer to `app/selenium_ui/jsm/modules_customers.py` for examples.
 """
 
+def test_1_selenium_customer_custom_action(jsm_webdriver, jsm_datasets, jsm_screen_shots):
+  extension_ui_customers.responsa_chatbot_appears(jsm_webdriver, jsm_datasets)
 
 # # def test_1_selenium_customer_custom_action(jsm_webdriver, jsm_datasets, jsm_screen_shots):
 # #     extension_ui_customers.app_specific_action(jsm_webdriver, jsm_datasets)
